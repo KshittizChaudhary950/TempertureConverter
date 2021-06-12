@@ -65,5 +65,21 @@ namespace Unit_Converter
             }
 
         }
+
+        private void ClearBtn_Click(object sender, EventArgs e)
+        {
+            if (input.Text!="" && Output.Text!="")
+            {
+                input.Text = "";
+                Output.Text = "";
+                input.Focus();
+
+
+            }
+            else
+            {
+                MessageBox.Show("There is onthing to clear");
+            }
+        }
     }
 }
