@@ -1,0 +1,10 @@
+D:\by ownlearning\Unit_Converter\Unit_Converter\bin\Debug\Unit_Converter.exe.config
+D:\by ownlearning\Unit_Converter\Unit_Converter\bin\Debug\Unit_Converter.exe
+D:\by ownlearning\Unit_Converter\Unit_Converter\bin\Debug\Unit_Converter.pdb
+D:\by ownlearning\Unit_Converter\Unit_Converter\obj\Debug\Unit_Converter.csproj.AssemblyReference.cache
+D:\by ownlearning\Unit_Converter\Unit_Converter\obj\Debug\Unit_Converter.Form1.resources
+D:\by ownlearning\Unit_Converter\Unit_Converter\obj\Debug\Unit_Converter.Properties.Resources.resources
+D:\by ownlearning\Unit_Converter\Unit_Converter\obj\Debug\Unit_Converter.csproj.GenerateResource.cache
+D:\by ownlearning\Unit_Converter\Unit_Converter\obj\Debug\Unit_Converter.csproj.CoreCompileInputs.cache
+D:\by ownlearning\Unit_Converter\Unit_Converter\obj\Debug\Unit_Converter.exe
+D:\by ownlearning\Unit_Converter\Unit_Converter\obj\Debug\Unit_Converter.pdb
