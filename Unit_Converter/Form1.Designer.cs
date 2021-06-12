@@ -36,6 +36,7 @@ namespace Unit_Converter
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.ClearBtn = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // input
@@ -112,12 +113,24 @@ namespace Unit_Converter
             this.ClearBtn.UseVisualStyleBackColor = true;
             this.ClearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DarkRed;
+            this.label3.Location = new System.Drawing.Point(74, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(140, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Convet Temperture";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(279, 230);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.ClearBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -143,6 +156,7 @@ namespace Unit_Converter
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button ClearBtn;
+        private System.Windows.Forms.Label label3;
     }
 }
 
