@@ -30,13 +30,13 @@ namespace Unit_Converter
         private void InitializeComponent()
         {
             this.input = new System.Windows.Forms.TextBox();
-            this.Output = new System.Windows.Forms.TextBox();
             this.Fbtn = new System.Windows.Forms.Button();
             this.Celsiusbtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.ClearBtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.Output = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // input
@@ -47,15 +47,6 @@ namespace Unit_Converter
             this.input.Name = "input";
             this.input.Size = new System.Drawing.Size(71, 22);
             this.input.TabIndex = 1;
-            // 
-            // Output
-            // 
-            this.Output.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Output.ForeColor = System.Drawing.Color.Black;
-            this.Output.Location = new System.Drawing.Point(183, 99);
-            this.Output.Name = "Output";
-            this.Output.Size = new System.Drawing.Size(71, 22);
-            this.Output.TabIndex = 5;
             // 
             // Fbtn
             // 
@@ -124,19 +115,30 @@ namespace Unit_Converter
             this.label3.TabIndex = 7;
             this.label3.Text = "Convet Temperture";
             // 
+            // Output
+            // 
+            this.Output.AutoSize = true;
+            this.Output.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Output.Location = new System.Drawing.Point(180, 102);
+            this.Output.Name = "Output";
+            this.Output.Size = new System.Drawing.Size(52, 16);
+            this.Output.TabIndex = 8;
+            this.Output.Text = "Output";
+            this.Output.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(279, 230);
+            this.Controls.Add(this.Output);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ClearBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Celsiusbtn);
             this.Controls.Add(this.Fbtn);
-            this.Controls.Add(this.Output);
             this.Controls.Add(this.input);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -150,13 +152,13 @@ namespace Unit_Converter
         #endregion
 
         private System.Windows.Forms.TextBox input;
-        private System.Windows.Forms.TextBox Output;
         private System.Windows.Forms.Button Fbtn;
         private System.Windows.Forms.Button Celsiusbtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button ClearBtn;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Output;
     }
 }
 

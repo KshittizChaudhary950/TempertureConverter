@@ -29,7 +29,7 @@ namespace Unit_Converter
 
                 f = (1.8 * num) + 32;
 
-                Output.Text =Convert.ToString(System.Math.Round(f,2));
+                Output.Text =Convert.ToString(System.Math.Round(f,2)+"*F");
 
                 //  MessageBox.Show(f.ToString());
 
@@ -39,6 +39,7 @@ namespace Unit_Converter
             {
                 MessageBox.Show("Please enter number which to want to convert");
             }
+            Output.Visible = true;
         }
 
         private void Celsiusbtn_Click(object sender, EventArgs e)
@@ -51,7 +52,7 @@ namespace Unit_Converter
                 num2 =Convert.ToDouble( input.Text);
 
                 c = (num2 - 32) * 5 / 9;
-                Output.Text =Convert.ToString( System.Math.Round(c,2));
+                Output.Text =Convert.ToString( System.Math.Round(c,2)+"*C");
 
                 Console.ReadLine();
 
@@ -63,6 +64,7 @@ namespace Unit_Converter
             {
                 MessageBox.Show("Please enter the number");
             }
+            Output.Visible = true;
 
         }
 
